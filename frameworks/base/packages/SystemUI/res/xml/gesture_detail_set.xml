@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<PreferenceScreen  
+xmlns:android="http://schemas.android.com/apk/res/android">  
+  <!--  
+<PreferenceCategory android:title="@string/detail_no_function">  
+
+        <PreferenceScreen android:title="@string/detail_not_define" 
+				android:key="detail_no_define_key">
+        </PreferenceScreen>
+</PreferenceCategory>  
+ -->
+
+
+
+<PreferenceCategory android:title="@string/detail_system"
+    android:layout="@layout/preference_category"
+    >  
+
+        <PreferenceScreen android:title="@string/detail_just_turn_screen" 
+				android:key="detail_just_turn_screen_key">
+        </PreferenceScreen>
+        
+        <PreferenceScreen android:title="@string/detail_turn_screen_and_unlock" 
+				android:key="detail_turn_scree_unlock_key">
+        </PreferenceScreen>
+        
+</PreferenceCategory>  
+
+
+
+
+
+<PreferenceCategory android:title="@string/detail_social_communication"
+        android:layout="@layout/preference_category"
+    
+    >  
+
+        <PreferenceScreen android:title="@string/detail_call_somebody" 
+				android:key="detail_call_somebody_key">
+        </PreferenceScreen>
+        
+        <PreferenceScreen android:title="@string/detail_send_msg_to_somebody" 
+				android:key="detail_send_msg_to_somebody_key">
+        </PreferenceScreen>
+        
+        <PreferenceScreen android:title="@string/detail_get_into_website" 
+				android:key="detail_get_into_website_key">
+        </PreferenceScreen>
+</PreferenceCategory>  
+
+
+
+
+<PreferenceCategory android:title="@string/detail_media"
+        android:layout="@layout/preference_category"
+    
+    >  
+
+        <PreferenceScreen android:title="@string/detail_open_camera" 
+				android:key="detail_open_camera_key">
+        </PreferenceScreen>
+        
+        <PreferenceScreen android:title="@string/detail_play_plause" 
+				android:key="detail_play_plause_key">
+        </PreferenceScreen>
+         
+        <PreferenceScreen android:title="@string/detail_pre_song" 
+				android:key="detail_pre_song_key">
+        </PreferenceScreen>
+        
+        <PreferenceScreen android:title="@string/detail_next_song" 
+				android:key="detail_next_song_key">
+          </PreferenceScreen>
+      <!--          
+        <PreferenceScreen android:title="@string/detail_start_record" 
+				android:key="detail_start_recordg_key">
+		  </PreferenceScreen>
+		  -->
+</PreferenceCategory>  
+
+
+<PreferenceCategory android:title="@string/detail_other"
+        android:layout="@layout/preference_category"
+    
+    >  
+
+        <PreferenceScreen android:title="@string/detail_open_application" 
+				android:key="detail_open_application">
+        </PreferenceScreen>
+</PreferenceCategory>
+
+
+</PreferenceScreen>  

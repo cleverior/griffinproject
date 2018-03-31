@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gesture Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="select_app">Select a App</string>
+        <string name="input_website">Input or select a website</string>
+    
+    
+            <string name="gesture_close_screen_title">Gesture When Closed Screen</string>
+            <string name="gesture_chooser_app_title">Please choose a application</string>
+            <string name="gesture_choose_number">Please choose a number</string>
+            <string name="gesture_choose_contact_no_number">This contact do not cotain effective number</string>
+            <string name="gesture_choose_website_input_hint">Input website</string>
+            
+    
+    <string name="gesture_double_click_item_title">Double Click</string>
+        <string name="gesture_up_slip_item_title">Up Slip</string>
+        <string name="gesture_down_slip_item_title">Down Slip</string>
+        <string name="gesture_left_slip_item_title">Left Slip</string>
+        <string name="gesture_right_slip_item_title">Right Slip</string>
+        <string name="gesture_letter_o_item_title">o</string>
+        <string name="gesture_letter_w_item_title">w</string>
+        <string name="gesture_letter_m_item_title">m</string>
+        <string name="gesture_letter_e_item_title">e</string>
+        <string name="gesture_letter_c_item_title">c</string>
+        <string name="gesture_letter_s_item_title">s</string>
+        <string name="gesture_letter_v_item_title">v</string>
+        <string name="gesture_letter_z_item_title">z</string>
+
+    <!-- default value for gesture function  ********** do not translate *************-->
+    	<string name="function_default">1</string>
+    <!-- default value for gesture function  -->
+
+        <string name="gesture_double_click_item" translatable="false">double_click</string>
+        <string name="gesture_up_slip_item" translatable="false">up_slip</string>
+        <string name="gesture_down_slip_item" translatable="false">down_slip</string>
+        <string name="gesture_left_slip_item" translatable="false">left_slip</string>
+        <string name="gesture_right_slip_item" translatable="false">right_slip</string>
+        <string name="gesture_letter_o_item" translatable="false">letter_o</string>
+        <string name="gesture_letter_w_item" translatable="false">letter_w</string>
+        <string name="gesture_letter_m_item" translatable="false">letter_m</string>
+        <string name="gesture_letter_e_item" translatable="false">letter_e</string>
+        <string name="gesture_letter_c_item" translatable="false">letter_c</string>
+        <string name="gesture_letter_s_item" translatable="false">letter_s</string>
+        <string name="gesture_letter_v_item" translatable="false">letter_v</string>
+        <string name="gesture_letter_z_item" translatable="false">letter_z</string>
+
+
+        <string name="double_click_def">@string/gesture_pre_action_turn_screen_and_unlock</string>
+		<string name="up_slip_def">@string/gesture_pre_action_turn_screen_and_unlock</string>
+        <string name="down_slip_def">@string/gesture_pre_action_turn_screen_and_unlock</string>
+		<string name="left_slip_def">9</string>
+		<string name="right_slip_def">10</string>
+		<string name="letter_o_def">@string/gesture_pre_action_open_camera</string>
+		<string name="letter_w_def">12;Contacts;com.android.contacts;com.android.contacts.activities.PeopleActivity</string>
+		<string name="letter_m_def">12;Music;com.android.music;com.android.music.MusicBrowserActivity</string>
+		<string name="letter_e_def">12;Messaging;com.android.messaging;com.android.messaging.ui.conversationlist.ConversationListActivity</string>
+		<string name="letter_c_def">@string/gesture_pre_action_open_dial</string>
+		<string name="letter_s_def">@string/gesture_pre_action_just_turn_screen</string>
+		<string name="letter_v_def">@string/gesture_pre_action_just_turn_screen</string>
+		<string name="letter_z_def">@string/gesture_pre_action_just_turn_screen</string>
+
+		
+		
+
+		<string name="gesture_pre_action_open_gmail">12;Gmail;com.google.android.gm;com.google.android.gm.ConversationListActivityGmail</string>
+		<string name="gesture_pre_action_open_camera">7</string>
+		<string name="gesture_pre_action_open_browser">12;Browser;com.android.browser;com.android.browser.BrowserActivity</string>
+		<string name="gesture_pre_action_open_dial">12;Dialer;com.android.dialer;com.android.dialer.DialtactsActivity</string>
+		<string name="gesture_pre_action_open_messgae">12;Messaging;com.android.messaging;com.android.messaging.ui.conversationlist.ConversationListActivity</string>
+		<string name="gesture_pre_action_open_music">8</string>
+
+		<string name="gesture_pre_action_pre_music">9</string>
+		<string name="gesture_pre_action_next_music">10</string>
+
+		<string name="gesture_pre_action_turn_screen_and_unlock">3</string>
+		<string name="gesture_pre_action_just_turn_screen">2</string>
+		<string name="gesture_pre_action_not_define">1</string> 
+		
+        
+		
+		
+		
+        		<string name="gesture_static_summary_no_define">Not define</string>
+                <string name="gesture_static_summary_just_turn_screen">Just Turn Screen</string>
+                <string name="gesture_static_summary_turn_screen_and_unlock">Turn Screen and Unlock</string>
+                <string name="gesture_static_summary_open_camera">Open Camera</string>
+                <string name="gesture_static_summary_play_plause">Play/Pause Music</string>
+                <string name="gesture_static_summary_pre_song">Previous Song</string>
+                <string name="gesture_static_summary_next_song">Next Song</string>
+                <string name="gesture_static_summary_start_record">Start Record</string>
+                <string name="gesture_static_summary_call_somebody_base">Call &#160;</string>
+                <string name="gesture_static_summary_send_msg_to_somebody_base">Send Message To :</string>
+                <string name="gesture_static_summary_get_into_website_base">Get Into :</string>
+                <string name="gesture_static_summary_open_app_base">Launch &#160;</string>
+                <string name="detail_temp_music_summary">Play or pause music</string>
+                		
+        
+        
+        
+        
+        
+        
+                <string name="detail_no_function">No Function</string>
+                <string name="detail_not_define">Not define</string> 
+                
+                <string name="detail_system">System Function</string>
+				<string name="detail_just_turn_screen">Just Turn Screen</string>
+				<string name="detail_turn_screen_and_unlock">Turn Screen and Unlock</string>
+				
+				
+				
+                <string name="detail_social_communication">Social Communication</string>
+                <string name="detail_call_somebody">Call Someone</string>
+                <string name="detail_send_msg_to_somebody">Send Message to someone</string>
+                <string name="detail_get_into_website">Get Into Website</string>
+                
+                <string name="detail_media">Media option</string>
+                <string name="detail_open_camera">Open Camera</string>
+                <string name="detail_play_plause">Play/Pause Music</string>
+                                <string name="detail_temp_music">Open Music</string>
+                <string name="detail_pre_song">Previous Song</string>
+                <string name="detail_next_song">Next Song</string>
+                <string name="detail_start_record">Start Record</string>
+                
+               
+                
+                <string name="detail_other">Other</string>
+                <string name="detail_open_application">Open Application</string>
+                                                
+        
+        
+       <string name="def_web_site1_addr" >www.google.com</string> 
+       <string name="def_web_site2_addr" >www.yahoo.com</string> 
+       <string name="def_web_site3_addr" >www.baidu.com</string> 
+       <string name="def_web_site4_addr" >www.youtube.com</string> 
+       <string name="def_web_site5_addr" >www.bing.com</string> 
+       <string name="def_web_site6_addr" >www.google.com</string> 
+       <string name="def_web_site7_addr" >www.google.com</string> 
+      
+        
+       <string name="def_web_site1_name" >Google</string> 
+       <string name="def_web_site2_name" >Yahoo</string> 
+       <string name="def_web_site3_name" >Baidu</string> 
+       <string name="def_web_site4_name" >Youtube</string> 
+       <string name="def_web_site5_name" >Bing</string> 
+       <string name="def_web_site6_name" >Google</string> 
+       <string name="def_web_site7_name" >Google</string> 
+                     
+        
+        
+        
+        
+        
+        
+</resources>

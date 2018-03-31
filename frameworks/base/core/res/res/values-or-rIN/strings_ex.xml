@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:ns0="urn:oasis:names:tc:xliff:document:1.2">
+  <plurals name="shutdown_after_seconds_plurals">
+    <item quantity="one">ଆପଣଙ୍କ ଫୋନ<ns0:g id="NUMBER">%d</ns0:g> ସେକେଣ୍ଡ୍ ପରେ ସଟ୍‌ ଡାଉନ୍‍ ହେବ </item>
+    <item quantity="other">ଆପଣଙ୍କ ଫୋନ<ns0:g id="NUMBER">%d</ns0:g> ସେକେଣ୍ଡ୍ ପରେ ସଟ୍‌ ଡାଉନ୍‍ ହେବ </item>
+  </plurals>
+</resources>

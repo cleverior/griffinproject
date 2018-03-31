@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!-- add for show countdown dialog before shutdown -->
+   <plurals name="shutdown_after_seconds_plurals">
+       <item quantity="one">Phone will shut down after <xliff:g id="NUMBER">%d</xliff:g> second</item>
+       <item quantity="other">Phone will shut down after <xliff:g id="NUMBER">%d</xliff:g> seconds</item>
+   </plurals>
+
+</resources>

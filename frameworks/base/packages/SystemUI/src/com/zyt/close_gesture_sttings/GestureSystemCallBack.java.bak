@@ -1,0 +1,7 @@
+package com.zyt.gesture;
+
+import android.os.Bundle;
+
+public interface GestureSystemCallBack {
+		public void systemuiCallBack(Bundle data);
+}

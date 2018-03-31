@@ -1,0 +1,7 @@
+<resources>
+  <!-- We don't want to publish private symbols in android.R as part of the
+       SDK.  Instead, put them here. -->
+  <private-symbols package="com.android.internal" />
+  <!--Add for poweroff dialog show -->
+  <java-symbol type="plurals" name="shutdown_after_seconds_plurals" />
+</resources>

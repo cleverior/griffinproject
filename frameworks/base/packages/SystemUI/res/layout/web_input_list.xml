@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+      
+    <RelativeLayout android:id="@+id/input_and_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true"
+        
+        >
+      
+
+
+      <EditText
+          android:id="@+id/web_site_input"
+          android:layout_width="250dip"
+          android:layout_height="50dip"
+          android:layout_alignParentLeft="true"
+          android:ems="10"
+          android:hint="@string/gesture_choose_website_input_hint"
+          android:textColor="#FF71c6fb"
+          android:singleLine="true"
+          android:maxLines="1"
+          android:ellipsize="end"
+          android:textSize="20sp" >
+
+          <requestFocus />
+      </EditText>
+      
+      <Button 
+          android:id="@+id/confirm_btn"
+          android:layout_width="70dip"
+          android:layout_height="50dip"
+          android:layout_alignParentRight="true"
+          android:text="@android:string/ok"
+          />
+      
+    </RelativeLayout>
+      <ListView
+          android:id="@android:id/list"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/input_and_confirm" />
+
+</RelativeLayout>

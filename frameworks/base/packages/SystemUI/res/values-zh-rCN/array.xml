@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string-array name="def_web_site_icon">
+        <item >google_icon</item>
+        <item >yahoo_icon</item>
+        <item >baiduicon</item>
+        <item >youku_icon</item>
+        <item >bing_icon</item>
+    </string-array>
+    
+  
+    
+    
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">手势设置</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+        <string name="select_app">选择应用</string>
+
+            <string name="gesture_close_screen_title">灭屏手势</string>
+            <string name="gesture_chooser_app_title">打开应用</string>
+            <string name="gesture_choose_number">选择联系人号码</string>
+            <string name="gesture_choose_contact_no_number">此联系人没有有效的号码</string>
+            <string name="gesture_choose_website_input_hint">输入网址</string>
+            
+    
+    <string name="gesture_double_click_item_title">双击</string>
+        <string name="gesture_up_slip_item_title">上滑</string>
+        <string name="gesture_down_slip_item_title">下滑</string>
+        <string name="gesture_left_slip_item_title">左滑</string>
+        <string name="gesture_right_slip_item_title">右滑</string>
+        <string name="gesture_letter_o_item_title">o</string>
+        <string name="gesture_letter_w_item_title">w</string>
+        <string name="gesture_letter_m_item_title">m</string>
+        <string name="gesture_letter_e_item_title">e</string>
+        <string name="gesture_letter_c_item_title">c</string>
+        <string name="gesture_letter_s_item_title">s</string>
+        <string name="gesture_letter_v_item_title">v</string>
+        <string name="gesture_letter_z_item_title">z</string>
+
+        <string name="double_click_def">@string/gesture_pre_action_turn_screen_and_unlock</string>
+		<string name="up_slip_def">@string/gesture_pre_action_turn_screen_and_unlock</string>
+        <string name="down_slip_def">8</string>
+		<string name="left_slip_def">9</string>
+		<string name="right_slip_def">10</string>
+		<string name="letter_o_def">12;通讯录;com.android.contacts;com.android.contacts.activities.PeopleActivity</string>
+		<string name="letter_w_def">12;文件管理器;com.sprd.fileexplorer;com.sprd.fileexplorer.activities.FileExploreActivity</string>
+		<string name="letter_m_def">12;音乐;com.google.android.music;com.android.music.activitymanagement.TopLevelActivity</string>
+		<string name="letter_e_def">12;浏览器;com.android.chrome;com.google.android.apps.chrome.Main</string>
+		<string name="letter_c_def">12;相机;com.android.camera2;com.android.camera.CameraLauncher</string>
+		<string name="letter_s_def">12;设置;com.android.settings;com.android.settings.Settings</string>
+		<string name="letter_v_def">12;电话;com.android.dialer;com.android.dialer.DialtactsActivity</string>
+		<string name="letter_z_def">12;计算器;com.android.calculator2;com.android.calculator2.Calculator</string>
+
+		<string name="gesture_pre_action_open_gmail">12;Gmail邮件;com.google.android.gm;com.google.android.gm.ConversationListActivityGmail</string>
+		<string name="gesture_pre_action_open_camera">7</string>
+		<string name="gesture_pre_action_open_browser">12;浏览器;com.android.browser;com.android.browser.BrowserActivity</string>
+		<string name="gesture_pre_action_open_dial">12;拨号;com.android.dialer;com.android.dialer.DialtactsActivity</string>
+		<string name="gesture_pre_action_open_messgae">12;短信;com.android.mms;com.android.mms.ui.ConversationList</string>
+		<string name="gesture_pre_action_open_music">8</string>
+		<string name="gesture_pre_action_turn_screen_and_unlock">3</string>
+		<string name="gesture_pre_action_just_turn_screen">2</string>
+		<string name="gesture_pre_action_not_define">1</string> 
+		
+        
+		
+		
+		
+        		<string name="gesture_static_summary_no_define">不定义</string>
+                <string name="gesture_static_summary_just_turn_screen">仅点亮屏幕</string>
+                <string name="gesture_static_summary_turn_screen_and_unlock">亮屏且解锁</string>
+                <string name="gesture_static_summary_open_camera">打开照相机</string>
+                <string name="gesture_static_summary_play_plause">暂停/播放  音乐</string>
+                <string name="gesture_static_summary_pre_song">前一首歌</string>
+                <string name="gesture_static_summary_next_song">下一首歌</string>
+                <string name="gesture_static_summary_start_record">开始录音</string>
+                <string name="gesture_static_summary_call_somebody_base">呼叫 &#160;</string>
+                <string name="gesture_static_summary_send_msg_to_somebody_base">发信息给 :</string>
+                <string name="gesture_static_summary_get_into_website_base">访问网址 :</string>
+                <string name="gesture_static_summary_open_app_base">打开 &#160;</string>
+                		                                <string name="detail_temp_music_summary">播放或暂停音乐</string>
+                		
+        
+        
+        
+        
+        
+        
+                <string name="detail_no_function">无功能</string>
+                <string name="detail_not_define">不定义</string> 
+                
+                <string name="detail_system">系统功能</string>
+				<string name="detail_just_turn_screen">仅点亮屏幕</string>
+				<string name="detail_turn_screen_and_unlock">亮屏且解锁</string>
+				
+				
+				
+                <string name="detail_social_communication">社交</string>
+                <string name="detail_call_somebody">打电话给某人</string>
+                <string name="detail_send_msg_to_somebody">发短信给某人</string>
+                <string name="detail_get_into_website">访问网址</string>
+                
+                <string name="detail_media">媒体选项</string>
+                <string name="detail_open_camera">打开照相机</string>
+                <string name="detail_play_plause">暂停/播放  音乐</string>
+                <string name="detail_pre_song">前一首歌</string>
+                <string name="detail_next_song">下一首歌</string>
+                <string name="detail_start_record">开始录音</string>
+                                                <string name="detail_temp_music">打开音乐</string>
+                
+               
+                
+                <string name="detail_other">其他</string>
+                <string name="detail_open_application">打开应用</string>
+                                                
+        
+         <string name="def_web_site1_addr" >www.google.com</string> 
+       <string name="def_web_site2_addr" >www.yahoo.com</string> 
+       <string name="def_web_site3_addr" >www.baidu.com</string> 
+       <string name="def_web_site4_addr" >www.youku.com</string> 
+       <string name="def_web_site5_addr" >www.bing.com</string> 
+       <string name="def_web_site6_addr" >www.google.com</string> 
+       <string name="def_web_site7_addr" >www.google.com</string> 
+      
+        
+       <string name="def_web_site1_name" >谷歌</string> 
+       <string name="def_web_site2_name" >雅虎</string> 
+       <string name="def_web_site3_name" >百度</string> 
+       <string name="def_web_site4_name" >优酷</string> 
+       <string name="def_web_site5_name" >必应</string> 
+       <string name="def_web_site6_name" >Google</string> 
+       <string name="def_web_site7_name" >Google</string> 
+	   <string name="input_website">输入或者选择一个网站</string>
+                     
+</resources>

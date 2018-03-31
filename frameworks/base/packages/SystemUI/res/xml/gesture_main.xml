@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<PreferenceScreen  
+xmlns:android="http://schemas.android.com/apk/res/android">  
+
+  
+<PreferenceCategory android:title="@string/gesture_close_screen_title">  
+<!--
+        <PreferenceScreen android:title="@string/gesture_double_click_item_title" 
+            android:layout="@layout/preference"
+				android:key="double_click_key"
+ >
+        </PreferenceScreen>
+-->
+        <PreferenceScreen android:title="@string/gesture_up_slip_item_title" 
+             
+				android:key="up_slip_key"
+ >
+        </PreferenceScreen>
+
+
+        <PreferenceScreen android:title="@string/gesture_down_slip_item_title" 
+             
+					android:key="down_slip_key"
+	 >
+        </PreferenceScreen>
+
+
+        <PreferenceScreen android:title="@string/gesture_left_slip_item_title"  
+ 					android:key="left_slip_key"
+	 >
+        </PreferenceScreen>
+
+
+        <PreferenceScreen android:title="@string/gesture_right_slip_item_title"  
+              
+					android:key="right_slip_key"
+	 >
+        </PreferenceScreen>
+
+
+        <PreferenceScreen android:title="@string/gesture_letter_o_item_title"   
+            
+					android:key="letter_o_key"
+	 >
+        </PreferenceScreen>
+
+
+        <PreferenceScreen android:title="@string/gesture_letter_w_item_title"   
+             
+					android:key="letter_w_key"
+	 >
+        </PreferenceScreen>
+
+
+        <PreferenceScreen android:title="@string/gesture_letter_m_item_title"  
+              
+					android:key="letter_m_key"
+	 >
+        </PreferenceScreen>
+
+
+        <PreferenceScreen android:title="@string/gesture_letter_e_item_title"   
+             
+					android:key="letter_e_key"
+	 >
+        </PreferenceScreen>
+
+
+        <PreferenceScreen android:title="@string/gesture_letter_c_item_title"   
+             
+					android:key="letter_c_key"
+	 >
+        </PreferenceScreen>
+
+
+        <PreferenceScreen android:title="@string/gesture_letter_s_item_title"  
+              
+					android:key="letter_s_key"
+	 >
+        </PreferenceScreen>   
+		
+
+		<PreferenceScreen android:title="@string/gesture_letter_v_item_title"  
+              
+					android:key="letter_v_key"
+	 >
+        </PreferenceScreen>    
+		
+
+		<PreferenceScreen android:title="@string/gesture_letter_z_item_title"  
+              
+					android:key="letter_z_key"
+	 >
+        </PreferenceScreen>        
+
+
+</PreferenceCategory>  
+ 
+</PreferenceScreen>  

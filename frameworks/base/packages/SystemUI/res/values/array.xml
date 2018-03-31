@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="def_web_site_addr">
+        <item >@string/def_web_site1_addr</item>
+        <item >@string/def_web_site2_addr</item>
+        <item >@string/def_web_site3_addr</item>
+        <item >@string/def_web_site4_addr</item>
+        <item >@string/def_web_site5_addr</item>
+      
+    </string-array>
+    
+    <string-array name="def_web_site_icon">
+        <item >google_icon</item>
+        <item >yahoo_icon</item>
+        <item >baiduicon</item>
+        <item >youtube_icon</item>
+        <item >bing_icon</item>
+    </string-array>
+    
+    <string-array name="def_web_site_name">
+        <item >@string/def_web_site1_name</item>
+        <item >@string/def_web_site2_name</item>
+        <item >@string/def_web_site3_name</item>
+        <item >@string/def_web_site4_name</item>
+        <item >@string/def_web_site5_name</item>
+
+        </string-array>
+        
+    
+    
+</resources>

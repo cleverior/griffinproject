@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	根标签为animation-list，其中oneshot代表着是否只展示一遍，设置为false会不停的循环播放动画
+	根标签下，通过item标签对动画中的每一个图片进行声明
+	android:duration 表示展示所用的该图片的时间长度
+ -->
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:oneshot="true"
+  >
+  	<item android:drawable="@drawable/smart_key_s_01" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_02" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_03" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_04" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_05" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_06" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_07" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_08" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_09" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_10" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_11" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_12" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_13" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_14" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_15" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_16" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_17" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_18" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_19" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_s_20" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_none" android:duration="30"></item>  	
+  	
+</animation-list>

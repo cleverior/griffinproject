@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!-- add for show countdown dialog before shutdown -->
+  <plurals name="shutdown_after_seconds_plurals">
+    <item quantity="one">您的手机会在 <xliff:g id="NUMBER">%d</xliff:g> 秒后关机</item>
+    <item quantity="other">您的手机会在 <xliff:g id="NUMBER">%d</xliff:g> 秒后关机</item>
+  </plurals>
+
+</resources>

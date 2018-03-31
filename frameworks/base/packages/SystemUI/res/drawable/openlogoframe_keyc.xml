@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	根标签为animation-list，其中oneshot代表着是否只展示一遍，设置为false会不停的循环播放动画
+	根标签下，通过item标签对动画中的每一个图片进行声明
+	android:duration 表示展示所用的该图片的时间长度
+ -->
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:oneshot="true"
+  >
+  	<item android:drawable="@drawable/smart_key_c_01" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_02" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_03" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_04" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_05" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_06" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_07" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_08" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_09" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_10" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_11" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_12" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_13" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_14" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_15" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_16" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_17" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_c_18" android:duration="30"></item>
+  	<item android:drawable="@drawable/smart_key_none" android:duration="30"></item>  	
+  	
+</animation-list>
